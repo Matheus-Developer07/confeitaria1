@@ -21,6 +21,7 @@ body{
     display: flex;
     align-items: center;
     margin-bottom: auto;
+    z-index: 99;
 }
 .header .logo{
     max-width: 150px;
@@ -48,7 +49,8 @@ body{
 }
 .imagensbolo{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-left: 30px;
     margin-right: 30px;
@@ -67,6 +69,7 @@ body{
 .fotosobre{
     margin: 20px;
     border-radius: 15px;
+    width: 100%;
     max-width: 300px;
     height: auto;
     box-shadow: 0px 0px 10px #5a3e36;
@@ -74,10 +77,15 @@ body{
 .sobremim{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
 }
 .txtsobre{
     color: #5a3e36;
-    max-width: 450px;
+    max-width: 500px;
+    line-height: 1.5;
 }
 /* Rodapé */
 .rodapé .logo{
@@ -96,4 +104,18 @@ body{
     color: var(--marrom-texto);
     text-shadow: 0px 0px 10px var(--rosa-principal);
     font-weight: bold;
+}
+@media (max-width: 768px){
+    .sobremim{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .links{
+        margin-right: 10px;
+    }
+
+    .imagensbolo{
+        margin: 10px;
+    }
 }
