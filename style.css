@@ -24,13 +24,13 @@ body{
     z-index: 99;
 }
 .header .logo{
-    max-width: 150px;
+    max-width: 100px;
     height: auto;
 }
 .links .navegação{
     text-decoration: none;
     color: #5a3e36;
-    max-width: 200px;
+    font-size: 0.8rem;
 }
 .links{
     margin-left: auto;
