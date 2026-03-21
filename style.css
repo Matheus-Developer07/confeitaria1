@@ -1,0 +1,99 @@
+:root {
+  --rosa-principal: #e8a0a8;
+  --rosa-suave: #f5c6cb;
+  --creme: #fff5f0;
+  --marrom-texto: #5a3e36;
+  --marrom-escuro: #3e2723;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--creme);
+    padding-top: 120px;
+}
+/* Header */
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px#3e2723;
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}
+.header .logo{
+    max-width: 150px;
+    height: auto;
+}
+.links .navegação{
+    text-decoration: none;
+    color: #5a3e36;
+    max-width: 200px;
+}
+.links{
+    margin-left: auto;
+    margin-right: 50px;
+}
+/* Alguns Bolos */
+.txtbolos{
+    display: flex;
+    justify-content: center;
+}
+.titlebolos{
+    color: #e8a0a8;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px var(--marrom-texto);
+}
+.imagensbolo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #fff9f7;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #5a3e36;
+}
+.imagensbolo .bolo{
+    max-width: 150px;
+    height: auto;
+    filter: drop-shadow(0px 0px 8px#5a3e36);
+}
+/* Sobre mim */
+.fotosobre{
+    margin: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+    height: auto;
+    box-shadow: 0px 0px 10px #5a3e36;
+}
+.sobremim{
+    display: flex;
+    justify-content: center;
+}
+.txtsobre{
+    color: #5a3e36;
+    max-width: 450px;
+}
+/* Rodapé */
+.rodapé .logo{
+    max-width: 150px;
+    height: auto;
+}
+.rodapé{
+    background-color: white;
+    box-shadow: 0px 0px 10px#3e2723;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thanks{
+    font-size: 2rem;
+    color: var(--marrom-texto);
+    text-shadow: 0px 0px 10px var(--rosa-principal);
+    font-weight: bold;
+}
